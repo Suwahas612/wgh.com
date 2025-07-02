@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wolf Gamez House</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🐺 Wolf Gamez House</h1>
+    <p>Your hub for Game Accounts, Keys & Offline Activations</p>
+  </header>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search games..." onkeyup="filterProducts()" />
+  </div>
+
+  <nav class="categories">
+    <button onclick="filterCategory('All')">All</button>
+    <button onclick="filterCategory('Game Accounts')">Game Accounts</button>
+    <button onclick="filterCategory('Game Keys')">Game Keys</button>
+    <button onclick="filterCategory('Offline Activation')">Offline Activation</button>
+  </nav>
+
+  <main class="products" id="productList">
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    <div class="product" data-category="Game Accounts">
+      <h3>GTA V Account</h3>
+      <p>Premium account with full access</p>
+    </div>
+    
+    <div class="product" data-category="Game Keys">
+      <h3>Cyberpunk 2077 Key</h3>
+      <p>Steam key - instant delivery</p>
+    </div>
+    <div class="product" data-category="Offline Activation">
+      <h3>Red Dead Redemption 2</h3>
+      <p>Offline activation for PC</p>
+    </div>
+    <!-- Add more products here -->
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
